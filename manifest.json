@@ -1,0 +1,10 @@
+{
+  "name": "Sky Hub Tycoon",
+  "short_name": "Sky Hub",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0b1d3a",
+  "theme_color": "#0b1d3a",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}
