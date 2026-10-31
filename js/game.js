@@ -387,7 +387,7 @@ function applyOffline(seconds) {
 }
 
 function resetGame() {
-  localStorage.removeItem(SAVE_KEY);
+  try { localStorage.removeItem(SAVE_KEY); } catch (e) { /* storage unavailable */ }
   S = defaultState();
   M = computeMods();
 }
